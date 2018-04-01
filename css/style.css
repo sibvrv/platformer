@@ -1,0 +1,89 @@
+body {
+	font-family: 'Source Code Pro', 'Courier', monospace;
+	margin: 0;
+}
+
+canvas {
+	background: #000;
+}
+
+.background {
+	background: #eee; /* rgb(52, 166, 251); */
+	table-layout: fixed;
+	border-spacing: 0;
+}
+
+.background td {
+	padding: 0;
+}
+
+.lava {
+	background: rgb(255, 100, 100);
+}
+
+.wall {
+	background: #bbb;
+	background-image: url("castleCenter.png");
+}
+
+.actor {
+	position: absolute;
+}
+
+.coin {
+	background: #FF0;
+}
+
+.player {
+	background: rgb(64, 64, 64);
+}
+
+.lost .player {
+	background: rgb(160, 64, 64);
+}
+
+.won .player {
+	background: #FFF;
+	box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+#status {
+	max-width: 800px;
+	margin: 0 auto;
+	font-weight: 600;
+}
+#status .right {
+	float: right;
+}
+
+.game {
+	overflow: hidden;
+	max-width: 800px;
+	max-height: 600px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.main-header {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+.main-header h1 {
+	margin: 0;
+	background: #2196F3;
+	padding: 0.5em 1em;
+}
+
+.main-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-header h1>span a {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+}
+

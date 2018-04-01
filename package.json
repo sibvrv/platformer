@@ -1,0 +1,27 @@
+{
+  "name": "platformer",
+  "version": "1.0.0",
+  "description": "Platformer based on Dark Blue by Thomas Palef.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibvrv/platformer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sibvrv/platformer/issues"
+  },
+  "homepage": "https://github.com/sibvrv/platformer#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^4.0.1",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.8.1",
+    "webpack": "^3.11.0"
+  }
+}
